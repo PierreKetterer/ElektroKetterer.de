@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Elektro Ketterer - Ihr Elektrofachbetrieb in Köln" />
+  <title>Elektro Ketterer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    header p {
+      margin: 5px 0 0;
+    }
+    nav {
+      background-color: #0055a5;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .contact {
+      background-color: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .services h2, .contact h2 {
+      color: #003366;
+    }
+    .placeholder {
+      background-color: #ccc;
+      height: 200px;
+      margin-top: 10px;
+      border-radius: 4px;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Elektro Ketterer</h1>
+    <p>Ihr zuverlässiger Elektrofachbetrieb aus Köln</p>
+  </header>
+
+  <section class="services">
+    <h2>Unsere Leistungen</h2>
+    <ul>
+      <li>Hausinstallationen & Neubau</li>
+      <li>Smart Home Systeme</li>
+      <li>Photovoltaik & erneuerbare Energien</li>
+      <li>Kundendienst & Reparaturen</li>
+      <li>E-Check und Sicherheitsprüfungen</li>
+    </ul>
+    <div class="placeholder">[Bildplatzhalter für Leistungen]</div>
+  </section>
+
+  <section class="contact">
+    <h2>Kontakt</h2>
+    <p><strong>Adresse:</strong><br>Altenhofer Weg 4<br>50767 Köln</p>
+    <p><strong>Telefon:</strong> <a href="tel:+4915756071264">+49 1575 6071264</a><br>
+       <strong>E-Mail:</strong> <a href="mailto:info@elektroketterer.de">info@elektroketterer.de</a></p>
+    <p><strong>Öffnungszeiten:</strong><br>Montag – Freitag: 07:30 – 18:00 Uhr</p>
+    <div class="placeholder">[Bildplatzhalter für Standort/Fahrzeug]</div>
+  </section>
+
+  <footer>
+    &copy; 2025 Elektro Ketterer – Alle Rechte vorbehalten.
+  </footer>
+</body>
+</html>
