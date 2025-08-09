@@ -8,71 +8,116 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
       color: #333;
+      line-height: 1.6;
     }
+
     header {
       background-color: #003366;
       color: white;
-      padding: 20px;
+      padding: 30px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
       text-align: center;
     }
+
+    header img {
+      max-width: 180px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
     header h1 {
       margin: 0;
-      font-size: 2em;
+      font-size: 2rem;
     }
+
     header p {
-      margin: 5px 0 0;
+      margin: 8px 0 0;
+      font-size: 1rem;
+      opacity: 0.9;
     }
+
     nav {
       background-color: #0055a5;
       text-align: center;
-      padding: 10px;
+      padding: 12px 0;
     }
+
     nav a {
       color: white;
-      margin: 0 15px;
+      margin: 0 20px;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.3s ease;
     }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
     section {
-      padding: 40px 20px;
+      padding: 50px 20px;
       max-width: 1000px;
       margin: auto;
     }
+
     .services, .contact {
       background-color: white;
-      margin-bottom: 20px;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
     }
+
     .services h2, .contact h2 {
       color: #003366;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
     }
-    .placeholder {
-      background-color: #ccc;
-      height: 200px;
-      margin-top: 10px;
-      border-radius: 4px;
+
+    ul {
+      padding-left: 20px;
     }
+
     footer {
       background-color: #003366;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 25px;
       font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #0055a5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
   <header>
+    <img src="LogoBlitz links.png" alt="Elektro Ketterer Logo">
     <h1>Elektro Ketterer</h1>
     <p>Ihr zuverlässiger Elektrofachbetrieb aus Köln</p>
   </header>
 
-  <section class="services">
+  <nav>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section class="services" id="leistungen">
     <h2>Unsere Leistungen</h2>
     <ul>
       <li>Hausinstallationen & Neubau</li>
@@ -81,20 +126,19 @@
       <li>Kundendienst & Reparaturen</li>
       <li>E-Check und Sicherheitsprüfungen</li>
     </ul>
-    <div class="placeholder">[Bildplatzhalter für Leistungen]</div>
   </section>
 
-  <section class="contact">
+  <section class="contact" id="kontakt">
     <h2>Kontakt</h2>
     <p><strong>Adresse:</strong><br>Altenhofer Weg 4<br>50767 Köln</p>
     <p><strong>Telefon:</strong> <a href="tel:+4915756071264">+49 1575 6071264</a><br>
        <strong>E-Mail:</strong> <a href="mailto:info@elektroketterer.de">info@elektroketterer.de</a></p>
     <p><strong>Öffnungszeiten:</strong><br>Montag – Freitag: 07:30 – 18:00 Uhr</p>
-    <div class="placeholder">[Bildplatzhalter für Standort/Fahrzeug]</div>
   </section>
 
   <footer>
     &copy; 2025 Elektro Ketterer – Alle Rechte vorbehalten.
   </footer>
+
 </body>
 </html>
